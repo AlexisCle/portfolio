@@ -1,0 +1,23 @@
+footer img{
+    width: 50px;
+}
+
+.pres{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: purple;
+}
