@@ -4,6 +4,69 @@
     justify-content: center;
 }
 
+/* #region Header*/
+header {
+    background-color: rgb(5, 32, 66);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* #region Left*/
+header #left {
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-end;
+    flex-wrap: wrap;
+}
+
+header #left img {
+    width: 6%;
+    height: auto;
+}
+/* #endregion */
+
+header #center {
+    display: flex;
+    flex-direction:column;
+    height:10%;
+    width: auto;
+    justify-content: center;
+    align-self: center;
+    margin-left: 15%;
+}
+
+/* #region right */
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* #region flags */
+
+#flags {
+    display: flex;
+    flex-direction: row;
+    margin-right: 31%;
+}
+
+#flags img{
+    width: auto;
+    height: 17px;
+}
+
+#flags a:last-child{
+    margin-left: 3%;
+}
+
+/* #endregion */
+
+/* #endregion */
+
+/* #endregion */
+
 /* #region footer */
 footer{
     display: flex;
