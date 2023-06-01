@@ -6,10 +6,12 @@
 
 /* #region Header*/
 header {
-    background-color: rgb(5, 32, 66);
+    background-color: purple;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 /* #region Left*/
 header #left {
@@ -75,6 +77,8 @@ footer{
     justify-content: space-between;
     height : 20%;
     background-color: purple;
+    position: sticky;
+    bottom: 0;
 }
 
 footer #infos{
@@ -99,7 +103,33 @@ footer #contact #reseaux{
 footer img{
     width: auto;
     height: 80%;
+    margin-right: 0%;
 }
+/* #endregion */
+
+/* #region projets */
+
+.projets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projets>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.projets img{
+    width: 50%;
+    height: auto;
+}
+
 /* #endregion */
 
 /* #region others */
@@ -131,10 +161,3 @@ a:hover {
     color: red;
 }
 /* #endregion */
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    background-color: purple;
-}
