@@ -11,6 +11,39 @@ footer img{
     justify-content: center;
 }
 
+/* #region footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height : 20%;
+    background-color: purple;
+}
+
+footer #infos{
+    display:flex;
+    justify-self: flex-start;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+footer #contact{
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: column;
+    margin-right: 1%;
+}
+
+footer #contact #reseaux{
+    display:flex;
+    flex-direction: row;
+}
+
+footer img{
+    width: auto;
+    height: 80%;
+}
+/* #endregion */
 footer{
     display: flex;
     flex-direction: row;
