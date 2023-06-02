@@ -141,7 +141,8 @@ footer img{
 .projets .row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    justify-self: center;
     width: 100%;
 }
 
