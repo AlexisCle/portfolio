@@ -138,6 +138,13 @@ footer img{
     height: auto;
 }
 
+.projets .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
 /* #endregion */
 
 /* #region others */
