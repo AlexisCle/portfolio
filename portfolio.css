@@ -120,10 +120,17 @@ footer img{
 .projets>div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 70%;
     margin-bottom: 5%;
+}
+
+.projets>div>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .projets img{
